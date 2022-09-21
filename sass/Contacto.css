@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*Diseño del menu*/
+nav div a img {
+  width: 50px;
+  border-radius: 100px;
+}
+nav div div ul li a:hover {
+  transform: scale(1, 1);
+  background: #0074C7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*Diseño del formulario*/
+.contenedor {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+}
+
+/*Diseño del footer*/
+#footer {
+  background-color: rgb(189, 189, 189);
+}
+
+div#contenedor {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+}
+
+.datos {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f535c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.boton {
+  width: 100%;
+  background: #1f535c;
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+
+label {
+  height: 40px;
+  font-size: 18px;
+}/*# sourceMappingURL=Contacto.css.map */

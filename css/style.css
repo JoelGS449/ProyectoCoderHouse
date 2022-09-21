@@ -21,63 +21,7 @@
     width: 300px;
   }
 
- /*Formulario de la pagina contacto*/
 
-div#contenedor
-{
-    width: 400px;
-    background-color: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-}
-
-.datos
-{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f535c;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-.boton
-{
-    width: 100%;
-    background: #1f535c;
-    border-radius: 10px;
-    padding: 12px;
-    color: white;
-    margin:16px 0;
-    font-size: 16px;
-
-}
-
-h4{
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-p
-{
-    height: 40px;
-    font-size: 18px;
-    text-align: center;
-}
-
-label
-{
-    height: 40px;
-    font-size: 18px;
-}
 
 
 /*Pagina Categorias*/

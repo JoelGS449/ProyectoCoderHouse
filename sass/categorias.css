@@ -1,0 +1,44 @@
+nav div a img {
+  width: 50px;
+  border-radius: 100px;
+}
+nav div div ul li a:hover {
+  transform: scale(1, 1);
+  background: #0074C7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.contenedorCards {
+  margin: 50px;
+}
+.contenedorCards div .cardCategorias {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.contenedorCards div .cardCategorias img {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+}
+.contenedorCards div .cardCategorias div h5 {
+  font-weight: 600;
+}
+.contenedorCards div .cardCategorias div p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+.contenedorCards div div:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+  background-color: rgb(189, 189, 189);
+}/*# sourceMappingURL=categorias.css.map */

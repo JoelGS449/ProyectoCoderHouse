@@ -1,0 +1,168 @@
+.logo{
+    width: 50px;
+    border-radius: 100px;
+ }
+
+ #footer{
+    background-color:rgb(189, 189, 189) ;
+ }
+
+ .mt-0{
+    margin: 100px;
+ }
+ 
+ .imgtam{
+    width: 100%;
+    height: 600px;
+ }
+
+ .img-2{
+     height: 300px;
+    width: 300px;
+  }
+
+ /*Formulario de la pagina contacto*/
+
+div#contenedor
+{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.datos
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f535c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.boton
+{
+    width: 100%;
+    background: #1f535c;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    margin:16px 0;
+    font-size: 16px;
+
+}
+
+h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p
+{
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+label
+{
+    height: 40px;
+    font-size: 18px;
+}
+
+
+/*Pagina Categorias*/
+
+.contenedorCategorias{
+  margin-top: 200px;
+  border-color: #1f535c;
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*margin: auto;*/
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.contenedorCategorias .cardCategorias{
+width: 330px;
+height: 430px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 20px;
+text-align: center;
+transition: all 0.25s;
+}
+
+.contenedorCategorias .cardCategorias:hover{
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedorCategorias .cardCategorias img{
+width: 330px;
+height: 220px;
+}
+
+.contenedorCategorias .cardCategorias h4{
+  font-weight: 600;
+}
+
+.contenedorCategorias .cardCategorias p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contenedorCategorias .cardCategorias a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #1f535c;
+}
+
+/*Productos mas vendidos*/
+
+.contenedorProductos{
+ max-width: 1100px;
+ margin: auto; 
+ margin-top: 200px;
+ display: flex;
+ flex-wrap: wrap;/*Cuando llegue al limite de un salto*/
+}
+
+.box{
+  width: 218px;
+  height: 200px;
+  background: #fff;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer; /*pone una manita cuando pasa el cursor*/
+}
+
+.box img{
+  height: 60px;
+  width: 60px;
+}
+
+.box h5{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(41, 41, 41, 0.664);
+}

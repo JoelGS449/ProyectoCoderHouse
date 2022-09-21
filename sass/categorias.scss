@@ -1,0 +1,63 @@
+nav{
+    div{
+        a{
+            img{
+                width: 50px;
+                border-radius: 100px;
+            }
+        }
+        div{
+            ul{
+                li{
+                    a:hover{
+                        transform: scale(1,1);
+                        background: #0074C7;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin tamCards {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+}
+
+.contenedorCards{
+    margin: 50px;
+    div{
+        .cardCategorias{
+            @include tamCards;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition: all 0.25s;
+            img{
+                @include tamCards;
+            }
+            div{
+                h5{
+                    font-weight: 600;
+                }
+                p{
+                    padding: 0 1rem;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+        } 
+        div:hover{
+            transform: translate(-15px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+
+#footer{
+    background-color:rgb(189, 189, 189);
+}

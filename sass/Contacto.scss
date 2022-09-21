@@ -25,7 +25,7 @@ nav{
 /*Diseño del formulario*/
 
 .contenedor{
-    width: 400px;
+    width: 50%;
     background-color: #24303c;
     padding: 30px;
     margin: auto;
@@ -34,6 +34,28 @@ nav{
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
+    h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .boton{
+        width: 100%;
+        background: #1f535c;
+        border-radius: 10px;
+        padding: 12px;
+        color: white;
+        margin:16px 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .contenedor{
+        width: 300px;
+    }
+
 }
 
 
@@ -43,42 +65,6 @@ nav{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-div#contenedor
-{
-    width: 400px;
-    background-color: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-}
-
-.datos
-{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f535c;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
 
 .boton
 {
@@ -90,23 +76,4 @@ div#contenedor
     margin:16px 0;
     font-size: 16px;
 
-}
-
-h4{
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-p
-{
-    height: 40px;
-    font-size: 18px;
-    text-align: center;
-}
-
-label
-{
-    height: 40px;
-    font-size: 18px;
 }

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*Diseño del menu*/
+nav div a img {
+  width: 50px;
+  border-radius: 100px;
+}
+nav div div ul li a:hover {
+  transform: scale(1, 1);
+  background: #0074C7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*Diseño de los productos*/
+.main {
+  margin-top: 50px;
+  margin-left: 5%;
+}
+.main .contenedorProductos {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; /*Cuando llegue al limite de un salto*/
+}
+.main .contenedorProductos .box {
+  width: 214px;
+  height: 200px;
+  background: rgb(212, 241, 238);
+  border-radius: 8px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer; /*pone una manita cuando pasa el cursor*/
+}
+.main .contenedorProductos .box img {
+  height: 60px;
+  width: 60px;
+}
+.main .contenedorProductos .box h5 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(41, 41, 41, 0.664);
+}
+.main .contenedorProductos .box:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    margin: auto;
+  }
+}
+/*Diseño del footer*/
+#footer {
+  background-color: rgb(189, 189, 189);
+}/*# sourceMappingURL=ventas.css.map */

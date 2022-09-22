@@ -12,45 +12,34 @@ nav div div ul li a:hover {
 }
 
 /*Diseño del formulario*/
-.contenedorCategorias {
-  margin-top: 200px;
-  border-color: #1f535c;
-  width: 100%;
-  max-width: 1200px;
-  height: 430px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /*margin: auto;*/
-  margin-left: 100px;
-  margin-right: 100px;
+.contenedorCards {
+  margin: 50px;
 }
-.contenedorCategorias .cardCategorias {
+.contenedorCards div .cardCategorias {
   width: 330px;
   height: 430px;
   border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   margin: 20px;
   text-align: center;
   transition: all 0.25s;
 }
-.contenedorCategorias .cardCategorias img {
+.contenedorCards div .cardCategorias img {
   width: 330px;
-  height: 220px;
+  height: 430px;
+  border-radius: 8px;
 }
-.contenedorCategorias .cardCategorias h4 {
+.contenedorCards div .cardCategorias div h5 {
   font-weight: 600;
 }
-.contenedorCategorias .cardCategorias p {
+.contenedorCards div .cardCategorias div p {
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
 }
-.contenedorCategorias .cardCategorias a {
-  font-weight: 500;
-  text-decoration: none;
-  color: #1f535c;
+.contenedorCards div div:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 /*Diseño del footer*/

@@ -52,6 +52,8 @@ nav div div ul li a:hover {
 @media screen and (max-width: 768px) {
   .box {
     margin: auto;
+    width: 80%;
+    background: red;
   }
 }
 /*Diseño del footer*/

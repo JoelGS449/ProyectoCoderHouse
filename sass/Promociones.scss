@@ -40,7 +40,7 @@ nav{
             text-align: center;
             transition: all 0.25s;
             img{
-                @include tamCards;
+                height: 500px;
             }
             div{
                 h5{
@@ -53,7 +53,7 @@ nav{
                 }
             }
         } 
-        div:hover{
+        .cardCategorias:hover{
             transform: translate(-15px);
             box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
         }

@@ -35,8 +35,9 @@ nav div div ul li a:hover {
   cursor: pointer; /*pone una manita cuando pasa el cursor*/
 }
 .main .contenedorProductos .box img {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
 }
 .main .contenedorProductos .box h5 {
   margin-top: 20px;
@@ -50,10 +51,13 @@ nav div div ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .box {
-    margin: auto;
+  .main .contenedorProductos .box {
+    margin: 5%;
     width: 80%;
-    background: red;
+  }
+  .main .contenedorProductos img {
+    width: 90px;
+    height: 90px;
   }
 }
 /*Diseño del footer*/

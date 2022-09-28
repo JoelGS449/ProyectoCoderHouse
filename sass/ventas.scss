@@ -47,8 +47,9 @@ nav{
             cursor: pointer; /*pone una manita cuando pasa el cursor*/
 
             img{
-                height: 60px;
-                width: 60px;
+                height: 80px;
+                width: 80px;
+                border-radius: 10px;
             }
             h5{
                 margin-top: 20px;
@@ -65,13 +66,15 @@ nav{
 }
 
 @media screen and (max-width: 768px){
-    
-    .box{
-        margin: auto;
+   
+    .main .contenedorProductos .box{
+        margin: 5%;
         width: 80%;
-        background: red;
     }
-
+    .main .contenedorProductos img{
+        width: 90px;
+        height: 90px;
+    }
 }
 /*Diseño del footer*/
 #footer{

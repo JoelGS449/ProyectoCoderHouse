@@ -24,11 +24,6 @@ nav div div ul li a:hover {
   text-align: center;
   transition: all 0.25s;
 }
-.contenedorCards div .cardCategorias img {
-  width: 330px;
-  height: 430px;
-  border-radius: 8px;
-}
 .contenedorCards div .cardCategorias div h5 {
   font-weight: 600;
 }

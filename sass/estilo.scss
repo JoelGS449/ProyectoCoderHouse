@@ -87,7 +87,7 @@ $Contenedores: (
 .contImgPrin{
     width: map-get($Contenedores, largo);
     margin: auto;
-    height: 350px;
+    height: auto;
     align-items: center;
     align-self: center;
     justify-content: center; 
@@ -108,6 +108,7 @@ $Contenedores: (
 }
 
 
+
 /*------------------------------------------Aqui comienza el extend-------------------------------------------*/
 .contMV{
     @extend .contImgPrin;
@@ -125,5 +126,4 @@ $Contenedores: (
 #footer{
     background-color:rgb(189, 189, 189);
 }
-
 

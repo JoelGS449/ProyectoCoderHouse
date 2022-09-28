@@ -28,7 +28,7 @@ nav{
 }
 
 .contenedorCards{
-    margin: 50px;
+    margin: auto;
     div{
         .cardCategorias{
             @include tamCards;

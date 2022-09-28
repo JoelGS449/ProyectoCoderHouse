@@ -61,7 +61,7 @@ nav div div ul li a:hover {
 .contImgPrin, .contMV {
   width: 90%;
   margin: auto;
-  height: 350px;
+  height: auto;
   align-items: center;
   align-self: center;
   justify-content: center;
